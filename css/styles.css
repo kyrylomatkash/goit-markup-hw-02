@@ -19,7 +19,7 @@ body {
 .logo-span {
   color: var(--primarydark-color);
 }
-.logo .link {
+.logo.link {
   text-decoration: none;
 }
 .list {
@@ -150,7 +150,7 @@ h2 {
 .footer {
   background-color: var(--primarydark-color);
 }
-.footer .link {
+.footer.link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
