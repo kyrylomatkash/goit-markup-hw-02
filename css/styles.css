@@ -46,6 +46,9 @@ body {
 .main-link:focus {
   color: #404bbf;
 }
+.address {
+  text-decoration: none;
+}
 address .link {
   font-size: 16px;
   line-height: 1.5;
@@ -148,7 +151,7 @@ h2 {
 .footer {
   background-color: var(--primarydark-color);
 }
-.footer-link {
+.footer .link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -156,6 +159,7 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primarybrand-color);
+  text-decoration: none;
 }
 .footer-span {
   color: var(--light-text);
