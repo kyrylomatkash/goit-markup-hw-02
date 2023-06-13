@@ -151,7 +151,7 @@ h2 {
 .footer {
   background-color: var(--primarydark-color);
 }
-.footer .link {
+.link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -161,7 +161,7 @@ h2 {
   color: var(--primarybrand-color);
   text-decoration: none;
 }
-.footer-span {
+.footer .span {
   color: var(--light-text);
 }
 .footer-p {
