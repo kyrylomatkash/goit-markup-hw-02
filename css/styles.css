@@ -35,6 +35,7 @@ body{
  --primarydark-color: #2E2F42;
  --primarybody-color: #434455;
  --pressedstate-color: #404bbf;
+ --light-text: #F4F4FD;
 }
 .main-link:hover{
     color: #404bbf;
@@ -131,4 +132,24 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primarybody-color);
+}
+.footer{
+    background-color: var(--primarydark-color);
+}
+.footer-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primarybrand-color);
+}
+.footer-span{
+    color: var(--light-text);
+}
+.footer-p{
+    line-height: 1.5;
+    color: var(--light-text);
+    letter-spacing: 0.02em;
 }
