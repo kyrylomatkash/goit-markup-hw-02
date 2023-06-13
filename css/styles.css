@@ -80,6 +80,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  font-size: 16px;
 }
 .hero-btn:hover {
   background-color: var(--pressedstate-color);
@@ -141,7 +142,7 @@ h2 {
   color: var(--primarybody-color);
 }
 .footer {
-  background-color: var(--primarydark-color);
+  background-color: background-color: #F4F4FD;
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
