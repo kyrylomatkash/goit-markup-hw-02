@@ -188,3 +188,13 @@ h2 {
   background-color: #404bbf;
   cursor: pointer;
 }
+.main.link {
+  text-decoration: none;
+}
+.project-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primarydark-color);
+}
