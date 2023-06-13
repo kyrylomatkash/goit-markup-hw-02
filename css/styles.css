@@ -42,10 +42,10 @@ body{
 .main-link:focus{
     color: #404bbf;
 }
-.address{
+.header-address{
     font-style: normal;
 }
-k{
+.address-link{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
