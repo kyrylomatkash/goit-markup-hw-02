@@ -49,7 +49,7 @@ body {
 .address {
   text-decoration: none;
 }
-address .link {
+.address.link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -59,9 +59,11 @@ address .link {
 }
 address .link:hover {
   color: var(--pressedstate-color);
+  font-style: normal;
 }
 address .link:focus {
   color: var(--pressedstate-color);
+  font-style: normal;
 }
 
 /* hero section  */
