@@ -95,6 +95,8 @@ address .link:focus {
 .hero-btn:focus {
   background-color: var(--pressedstate-color);
 }
+
+/* features section  */
 .features-heading-title {
   font-weight: 500;
   font-size: 20px;
@@ -115,6 +117,8 @@ h2 {
   letter-spacing: 0.02em;
   color: var(--primarybody-color);
 }
+
+/* what are we doing section  */
 .doing-section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -123,6 +127,7 @@ h2 {
   text-transform: capitalize;
   color: var(--primarydark-color);
 }
+/* team-section  */
 .team-section {
   background-color: #f4f4fd;
 }
@@ -150,6 +155,7 @@ h2 {
   letter-spacing: 0.02em;
   color: var(--primarybody-color);
 }
+/* footer section */
 .footer {
   background-color: var(--primarydark-color);
 }
@@ -188,10 +194,11 @@ h2 {
   background-color: #404bbf;
   cursor: pointer;
 }
+/* gallery elements  */
 .main.link {
   text-decoration: none;
 }
-/* gallery-description  */
+
 .project-name {
   font-weight: 500;
   font-size: 20px;
