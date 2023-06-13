@@ -19,6 +19,9 @@ body {
 .logo-span {
   color: var(--primarydark-color);
 }
+.logo .link {
+  text-decoration: none;
+}
 .list {
   list-style: none;
 }
@@ -46,16 +49,16 @@ body {
 .header-address {
   font-style: normal;
 }
-.address-link {
+address .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primarybody-color);
 }
-.address-link:hover {
+address .link:hover {
   color: var(--pressedstate-color);
 }
-.address-link:focus {
+address .link:focus {
   color: var(--pressedstate-color);
 }
 
