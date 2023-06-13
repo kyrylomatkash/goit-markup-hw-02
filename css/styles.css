@@ -3,7 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primarybody-color);
-  background-color: #ffffff;
+  background-color: var(--white-text);
 }
 /* header  */
 .logo-text {
@@ -172,7 +172,7 @@ body {
 .main-button:hover,
 .main-button:focus {
   color: var(--light-text);
-  background-color: #404bbf;
+  background-color: var(--pressedstate-color);
   cursor: pointer;
 }
 /* gallery elements  */
