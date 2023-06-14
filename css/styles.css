@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
-
+:root {
+  --primarybrand-color: #4d5ae5;
+  --primarydark-color: #2e2f42;
+  --primarybody-color: #434455;
+  --pressedstate-color: #404bbf;
+  --light-text: #f4f4fd;
+  --white-text: #ffffff;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primarybody-color);
@@ -35,15 +42,6 @@ body {
 .navigation:focus {
   color: var(--pressedstate-color);
 }
-:root {
-  --primarybrand-color: #4d5ae5;
-  --primarydark-color: #2e2f42;
-  --primarybody-color: #434455;
-  --pressedstate-color: #404bbf;
-  --light-text: #f4f4fd;
-  --white-text: #ffffff;
-}
-
 .header-address {
   font-style: normal;
 }
@@ -158,7 +156,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* portfolio.html  */
+/* portfolio.html */
 .main-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
